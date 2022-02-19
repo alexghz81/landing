@@ -1,12 +1,14 @@
-.quote{
+.quote {
   margin-top: 120px;
   padding-left: 120px;
   display: flex;
   gap: 80px;
-  &__image{
+
+  &__image {
     max-width: 650px;
   }
-  &__title{
+
+  &__title {
     font-family: $font;
     font-size: 34px;
     line-height: 44px;
@@ -14,23 +16,34 @@
     font-weight: 600;
     width: 470px;
     margin: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
   }
-  &__right-column{
+
+  &__right-column {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
-  &__author{
+
+  &__author {
 
   }
-  &__author-name{
+
+  &__author-name {
     font-family: $font;
     font-weight: 500;
     font-size: 20px;
     line-height: 32px;
     color: $headerLinkColor;
+    margin-top: 0;
+    margin-bottom: 6px;
   }
-  &__author-description{
+
+  &__author-description {
+    margin: 0 0 4px 0;
     font-family: $font;
     font-weight: 400;
     font-size: 16px;

@@ -1,31 +1,25 @@
-.description{
+.description {
   position: relative;
-  width: 100%;
   display: flex;
   padding-left: 120px;
   min-height: 856px;
   justify-content: space-between;
-  &__image{
+  background-color: $bgColor;
+
+  &__image {
     height: 836px;
     width: 610px;
     justify-self: flex-end;
     margin-top: 20px;
-    margin-right: 120px;
   }
-  &__bike-fix{
-    position: absolute;
-    background-color: #f4f4f4;
-    width: 440px;
-    height: 300px;
+
+  &__bike-fix {
+    width: 340px;
+    height: 260px;
     border-radius: 20px;
-    background-image: url("../../images/cannondale.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    top: 392px;
-    right: 490px;
   }
-  &__bike-text{
+
+  &__bike-text {
     font-family: $font;
     font-weight: 400;
     font-size: 18px;
@@ -33,15 +27,31 @@
     color: $headerLinkColor;
     margin-top: 169px;
   }
-  &__line{
+
+  &__line {
     border-top: 2px solid #D7D4D4;
     width: 132px;
     align-self: flex-end;
     margin-bottom: 26px;
   }
-  &__bike-name{
+
+  &__bike-name {
     display: flex;
     gap: 30px;
     align-self: flex-end;
+  }
+
+  &__image-wrapper {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $bgColor;
+    top: 392px;
+    right: 370px;
+    width: 440px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, .25), -20px 60px 220px rgba(0, 0, 0, .2);
   }
 }
