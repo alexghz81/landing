@@ -6,6 +6,8 @@
 }
 
 .header {
+  position: fixed;
+  top: 0;
   font-family: Inter, sans-serif;
   background-color: #F4F4F4;
 }
@@ -33,11 +35,142 @@
   font-weight: 500;
   text-decoration: none;
   color: #151515;
-  cursor: url("../../images/Pointer.svg"), pointer;
+  cursor: url("../images/Pointer.svg"), pointer;
 }
 .header__link:hover {
   opacity: 0.75;
   transition: opacity 0.2s ease-in;
+}
+
+.description {
+  position: relative;
+  width: 100%;
+  display: flex;
+  padding-left: 120px;
+  min-height: 856px;
+  justify-content: space-between;
+}
+.description__image {
+  height: 836px;
+  width: 610px;
+  justify-self: flex-end;
+  margin-top: 20px;
+  margin-right: 120px;
+}
+.description__bike-fix {
+  position: absolute;
+  background-color: #f4f4f4;
+  width: 440px;
+  height: 300px;
+  border-radius: 20px;
+  background-image: url("../../images/cannondale.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  top: 392px;
+  right: 490px;
+}
+.description__bike-text {
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  color: #151515;
+  margin-top: 169px;
+}
+.description__line {
+  border-top: 2px solid #D7D4D4;
+  width: 132px;
+  align-self: flex-end;
+  margin-bottom: 26px;
+}
+.description__bike-name {
+  display: flex;
+  gap: 30px;
+  align-self: flex-end;
+}
+
+.title {
+  font-family: Inter, sans-serif;
+  font-size: 55px;
+  line-height: 60px;
+  font-weight: 700;
+  max-width: 460px;
+  margin-top: 83px;
+  margin-bottom: 0;
+  letter-spacing: -0.5px;
+}
+
+.text {
+  font-family: Inter, sans-serif;
+  color: #222222;
+  max-width: 460px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  margin-top: 44px;
+  margin-bottom: 0;
+}
+
+.button {
+  padding: 0;
+  width: 180px;
+  height: 50px;
+  margin-top: 53px;
+  background-color: #24b47e;
+  border-radius: 4px;
+  border: 0;
+  font-family: Inter, sans-serif;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.button:hover {
+  cursor: url("../images/Pointer.svg"), pointer;
+  background-color: #319e75;
+  transition: all 0.3s ease-in-out;
+}
+
+.quote {
+  margin-top: 120px;
+  padding-left: 120px;
+  display: flex;
+  gap: 80px;
+}
+.quote__image {
+  max-width: 650px;
+}
+.quote__title {
+  font-family: Inter, sans-serif;
+  font-size: 34px;
+  line-height: 44px;
+  letter-spacing: -0.5px;
+  font-weight: 600;
+  width: 470px;
+  margin: 0;
+}
+.quote__right-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.quote__author-name {
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  color: #151515;
+}
+.quote__author-description {
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #222222;
+  opacity: 0.7;
 }
 
 /*# sourceMappingURL=index.css.map */

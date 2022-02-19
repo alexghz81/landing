@@ -1,0 +1,41 @@
+.quote{
+  margin-top: 120px;
+  padding-left: 120px;
+  display: flex;
+  gap: 80px;
+  &__image{
+    max-width: 650px;
+  }
+  &__title{
+    font-family: $font;
+    font-size: 34px;
+    line-height: 44px;
+    letter-spacing: -.5px;
+    font-weight: 600;
+    width: 470px;
+    margin: 0;
+  }
+  &__right-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  &__author{
+
+  }
+  &__author-name{
+    font-family: $font;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    color: $headerLinkColor;
+  }
+  &__author-description{
+    font-family: $font;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: $pageTextColor;
+    opacity: .7;
+  }
+}
