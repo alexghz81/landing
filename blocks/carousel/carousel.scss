@@ -1,0 +1,41 @@
+.carousel {
+  display: grid;
+  column-gap: 40px;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 83px;
+
+  &__image {
+    width: 650px;
+    height: 400px;
+  }
+
+  &__buttons-wrapper {
+    display: flex;
+    gap: 23px;
+    margin-top: 50px;
+    margin-left: -1px;
+  }
+
+  &__button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: #ebebeb;
+    cursor: $cursor;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    &:hover {
+      opacity: .6;
+    }
+  }
+
+  &__button-left {
+    background-image: url("../../images/left-arrow.svg");
+  }
+
+  &__button-right {
+    background-image: url("../../images/right-arrow.svg");
+  }
+}

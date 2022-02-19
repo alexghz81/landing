@@ -186,4 +186,44 @@
   opacity: 0.7;
 }
 
+.covers {
+  padding: 40px 120px 0 120px;
+}
+
+.carousel {
+  display: grid;
+  column-gap: 40px;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 83px;
+}
+.carousel__image {
+  width: 650px;
+  height: 400px;
+}
+.carousel__buttons-wrapper {
+  display: flex;
+  gap: 23px;
+  margin-top: 50px;
+  margin-left: -1px;
+}
+.carousel__button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  background-color: #ebebeb;
+  cursor: url("../images/Pointer.svg"), pointer;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel__button:hover {
+  opacity: 0.6;
+}
+.carousel__button-left {
+  background-image: url("../../images/left-arrow.svg");
+}
+.carousel__button-right {
+  background-image: url("../../images/right-arrow.svg");
+}
+
 /*# sourceMappingURL=index.css.map */
