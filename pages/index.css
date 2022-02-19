@@ -226,4 +226,45 @@
   background-image: url("../../images/right-arrow.svg");
 }
 
+.bikes {
+  padding: 40px 120px;
+}
+.bikes__header {
+  display: flex;
+  justify-content: space-between;
+}
+.bikes__links {
+  margin: 0 0 6px 0;
+  padding: 0;
+  align-self: flex-end;
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+}
+.bikes__link {
+  text-decoration: none;
+  color: #222222;
+  cursor: url("../images/Pointer.svg"), pointer;
+  opacity: 0.7;
+}
+.bikes__link:hover {
+  opacity: 0.6;
+}
+.bikes__link_active {
+  font-weight: 600;
+  opacity: 1;
+}
+.bikes__link_active:hover {
+  opacity: 0.75;
+}
+.bikes__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 30px;
+}
+
 /*# sourceMappingURL=index.css.map */
